@@ -1,10 +1,7 @@
-<script setup>
-import profile from "../assets/profile.jpeg";
-</script>
 
 <template>
   <div class="box">
-    <img :src="profile" alt="Punit Inani" class="box-img" />
+    <img src="https://media.licdn.com/dms/image/D4D03AQEWJiTB1DZABQ/profile-displayphoto-shrink_400_400/0/1672386285802?e=1680739200&v=beta&t=ToWzK5G1ITr4Wn7cQDydt7Fy6GXZl-mKb-zPKM4-2x0" alt="Punit Inani" class="box-img" />
     <h1>Punit Inani</h1>
     <h5>Fullstack Developer</h5>
     <p>
