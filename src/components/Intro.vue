@@ -1,7 +1,7 @@
 <template>
   <div class="box">
     <img
-      src="https://media.licdn.com/dms/image/D4D03AQEWJiTB1DZABQ/profile-displayphoto-shrink_400_400/0/1672386285802?e=1680739200&v=beta&t=ToWzK5G1ITr4Wn7cQDydt7Fy6GXZl-mKb-zPKM4-2x0"
+      src="https://media.licdn.com/dms/image/D4D03AQF70naEwOYBAg/profile-displayphoto-shrink_400_400/0/1675449558234?e=1680739200&v=beta&t=SVS-On9s249wK1s6OHj9J_-zg-4LOBK8tgJysLiiDXM"
       alt="Punit Inani" class="box-img" />
     <h1>Punit Inani</h1>
     <h5>Fullstack Developer</h5>
