@@ -8,7 +8,7 @@ import metadata from "@/assets/metadata.json";
   <div id="container" v-if="metadata">
     <h3>Talks</h3>
     <div class="row" v-for="talk in metadata" :key="talk.id">
-      <p class="title"><a :href="talk.url̵" target="_blank">// {{ talk.title }}</a> <span>{{ talk.published }}</span>
+      <p class="title"><a :href="talk.url" target="_blank">// {{ talk.title }}</a> <span>{{ talk.published }}</span>
       </p>
     </div>
   </div>
