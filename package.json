@@ -1,7 +1,7 @@
 {
   "name": "urly.fit",
   "version": "0.0.0",
-  "homepage": "https://theurl.in",
+  "homepage": "https://theurl.in/#",
   "private": true,
   "scripts": {
     "dev": "vite",
