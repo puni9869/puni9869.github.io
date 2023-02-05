@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
     viteStaticCopy({
-      targets: [{ src: "./CNAME", dest: "." }]
+      targets: [{ src: "./CNAME", dest: "." }, { src: "./404.html", dest: "." }]
     })
   ],
   build: {
