@@ -1,1 +1,0 @@
-import{o as e,c as a,a as c,b as o}from"./index-f1fae08d.js";const s={id:"container"},l={__name:"Talks",setup(n){const t="https://github.com/puni9869/tech-talks#tech-talks";return setTimeout(()=>{window.location=t},1e3),(r,i)=>(e(),a("div",s,[c(" Redirecting to "),o("a",{href:t,target:"_blank"}," https://github.com/puni9869/tech-talks#tech-talks ")]))}};export{l as default};
