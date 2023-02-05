@@ -1,6 +1,6 @@
 [
   { "id": 1,
-    "url": "https://github.com/puni9869/tech-talks#tech-talksa",
+    "url": "https://github.com/puni9869/tech-talks#tech-talks",
     "title": "How git internally stores the blob data.",
     "repoPath": "",
     "published": "06-03-2023"
