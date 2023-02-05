@@ -29,6 +29,7 @@
         </a>
       </li>
     </ul>
+    <router-link to="/talks">Talks</router-link>
   </div>
 </template>
 <style scoped>

@@ -1,39 +1,106 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	font-weight: normal;
 }
 
 a,
 .green {
-  text-decoration: none;
-  transition: 0.4s;
+	text-decoration: none;
+	transition: 0.4s;
 }
 
 
 @media (min-width: 1024px) {
-  body {
-    display: flex;
-    background-color: white;
-    color: black;
-  }
+	body {
+		display: flex;
+		background-color: white;
+		color: black;
+	}
 
-  #app {
-    grid-template-columns: 1fr 1fr;
-  }
+	#app {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 @media (max-width: 650px) {
-  body {
-    display: flex;
-    background-color: black;
-    color: white;
-  }
+	body {
+		display: flex;
+		background-color: black;
+		color: white;
+	}
 
-  #app {
-    grid-template-columns: 1fr 1fr;
-  }
+	#app {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+	/* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	/* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	/* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+	/* CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	/* CSS */
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	/* CSS */
+
 }
