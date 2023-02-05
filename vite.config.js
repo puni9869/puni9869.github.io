@@ -9,19 +9,11 @@ export default defineConfig({
   plugins: [
     vue(),
     viteStaticCopy({
-      targets: [
-        {
-          src: "./CNAME",
-          dest: "."
-        }
-      ]
+      targets: [{ src: "./CNAME", dest: "." }]
     })
   ],
   build: {
     outDir: "./docs"
-  },
-  optimizeDeps: {
-    include: ["esm-dep > cjs-dep"]
   },
   resolve: {
     alias: {

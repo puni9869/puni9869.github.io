@@ -2,7 +2,9 @@
   <div class="box">
     <img
       src="https://media.licdn.com/dms/image/D4D03AQF70naEwOYBAg/profile-displayphoto-shrink_400_400/0/1675449558234?e=1680739200&v=beta&t=SVS-On9s249wK1s6OHj9J_-zg-4LOBK8tgJysLiiDXM"
-      alt="Punit Inani" class="box-img" />
+      alt="Punit Inani"
+      class="box-img"
+    />
     <h1>Punit Inani</h1>
     <h5>Fullstack Developer</h5>
     <p>

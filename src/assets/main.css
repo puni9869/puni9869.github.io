@@ -17,8 +17,19 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
-    background-color: cyan;
+    background-color: white;
+    color: black;
+  }
+
+  #app {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    display: flex;
+    background-color: black;
     color: white;
   }
 

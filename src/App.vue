@@ -1,10 +1,3 @@
-<script setup>
-import Intro from "@/components/Intro.vue";
-</script>
 <template>
-  <div>
-    <Intro />
-  </div>
+  <router-view />
 </template>
-
-<style scoped></style>
