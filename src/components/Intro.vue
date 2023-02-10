@@ -1,7 +1,7 @@
 <template>
   <div class="box">
     <img
-      src="https://media.licdn.com/dms/image/D4D03AQF70naEwOYBAg/profile-displayphoto-shrink_400_400/0/1675449558234?e=1680739200&v=beta&t=SVS-On9s249wK1s6OHj9J_-zg-4LOBK8tgJysLiiDXM"
+      src="https://media.licdn.com/dms/image/D4D03AQE4Zb1Bi8x-8w/profile-displayphoto-shrink_400_400/0/1675914473128?e=1681344000&v=beta&t=XN97tEpdbBleR-GOPH5uRoTw6ZYfQDE7Yzd6v8szzAU"
       alt="Punit Inani"
       class="box-img"
     />
