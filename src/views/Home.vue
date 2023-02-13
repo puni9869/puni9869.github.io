@@ -3,6 +3,6 @@ import Intro from "@/components/Intro.vue";
 </script>
 <template>
   <div>
-    <Intro />
+    <intro></intro>
   </div>
 </template>

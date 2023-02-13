@@ -1,41 +1,32 @@
 <template>
-  <div class="box">
-    <img
-      src="https://media.licdn.com/dms/image/D4D03AQE4Zb1Bi8x-8w/profile-displayphoto-shrink_400_400/0/1675914473128?e=1681344000&v=beta&t=XN97tEpdbBleR-GOPH5uRoTw6ZYfQDE7Yzd6v8szzAU"
-      alt="Punit Inani"
-      class="box-img"
-    />
-    <h1>Punit Inani</h1>
-    <h5>Fullstack Developer</h5>
-    <p>
-      A web developer with specializes in Golang, Python and Javascript. I work
-      on awesome tools like Terraform and Docker. Currently I am working at
-      Rackspace Technology.
-    </p>
-    <ul>
-      <li>
-        <a target="_blank" href="https://www.linkedin.com/in/punitinani1">
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a target="_blank" href="https://github.com/puni9869">
-          <i class="fa fa-github-square" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a href="mailto:punitinani1@gmail.com">
-          <i class="fa fa-envelope-square" aria-hidden="true"></i>
-        </a>
-      </li>
-    </ul>
-    <router-link to="/talks">Talks</router-link>
+  <div>
+    <div class="min-vh-100 d-flex flex-column">
+      <section class="my-5 container">
+        <div class="row my-5">
+          <div class="col">
+            <p>Hello 👋 I’m Punit Inani.</p>
+            <p>I’m a software engineer at <a href="https://rackspace.com/" target="_blank" rel="noopener">Rackspace</a>,
+              working on <a href="https://go.dev/" target="_blank" rel="noopener">go</a>,
+              <a href="https://python.org/" target="_blank" rel="noopener">python</a> and
+              <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.</a>
+            </p>
+            <p>
+              I can endlessly talk on containers, <a href="https://terraform.io/" target="_blank" rel="noopener">terraform</a> and
+              web technology.
+            </p>
+            <hr>
+            <p>Find me around.</p>
+            <ul>
+              <li>
+                <router-link to="/talks">Talks</router-link>
+              </li>
+              <li><a href="https://github.com/puni9869" target="_blank" rel="noopener">Github</a></li>
+              <li><a href="mailto:punitinani1@gmail.com" target="_blank" rel="noopener">Email</a></li>
+              <li><a href="https://www.linkedin.com/in/punitinani1/" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
-<style scoped>
-.box h5 {
-  font-size: 25px;
-  letter-spacing: 2px;
-  font-weight: bold;
-}
-</style>
