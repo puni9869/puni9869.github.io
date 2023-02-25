@@ -1,0 +1,3 @@
+[submodule "talks"]
+	path = talks
+	url = https://github.com/puni9869/tech-talks.git
