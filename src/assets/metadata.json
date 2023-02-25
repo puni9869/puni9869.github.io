@@ -3,6 +3,7 @@
     "url": "https://raw.githubusercontent.com/puni9869/tech-talks/main/README.md",
     "title": "How git internally stores the blob data.",
     "repoPath": "",
+    "slug": "how-git-internally-stores-the-blob-data",
     "published": "06-03-2023"
   }
 ]

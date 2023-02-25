@@ -5,4 +5,5 @@ import router from "./routers";
 
 const app = createApp(App);
 app.use(router);
+app.config.globalProperties.window = window;
 app.mount("#app");

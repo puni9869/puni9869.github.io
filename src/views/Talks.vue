@@ -1,43 +1,33 @@
 <script setup>
 import metadata from "@/assets/metadata.json";
-import { onMounted, ref } from "vue";
-
-const a = ref("");
-
-const readTxt = async () => {
-  const url = metadata[0]["url"];
-  const response = await fetch(url);
-  return await response.text();
-};
-
-onMounted(async () => {
-  a.value = await readTxt();
-});
 
 </script>
 <template>
-  <div>
-    <div class="min-vh-100 d-flex flex-column">
-      <div class="my-5 container">
-        <div class="row my-5">
-          <div class="col" v-if="metadata">
-            <p>
-              <router-link to="/">
-                <button class="btn btn-sm"><i class="fa fa-home"></i></button>
+  <div class="min-vh-100 d-flex flex-column">
+    <div class="my-5 container">
+      <div class="row my-5">
+        <div class="col" v-if="metadata">
+          <p>
+            <router-link to="/">
+              <button class="btn btn-sm"><i class="fa fa-home"></i></button>
+            </router-link>
+            Talks
+          </p>
+          <div class="row" v-for="talk in metadata" :key="talk.id">
+            <p class="title">
+              //
+              <router-link :to="{name:'talk', params:{talk:talk.slug}}">{{ talk.title }}
               </router-link>
-              Talks
+              <span> {{ talk.published }}</span>
             </p>
-            <div class="row" v-for="talk in metadata" :key="talk.id">
-              <p class="title">
-                // <a :href="talk.url" target="_blank">{{ talk.title }}</a> <span> {{ talk.published }}</span>
-              </p>
-            </div>
           </div>
-          <div v-else>No Data.</div>
         </div>
+        <div v-else>No Data.</div>
       </div>
     </div>
+
   </div>
+
 </template>
 
 <style scoped>
