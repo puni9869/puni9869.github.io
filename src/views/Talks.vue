@@ -1,5 +1,18 @@
 <script setup>
 import metadata from "@/assets/metadata.json";
+import { onMounted, ref } from "vue";
+
+const a = ref("");
+
+const readTxt = async () => {
+  const url = metadata[0]["url"];
+  const response = await fetch(url);
+  return await response.text();
+};
+
+onMounted(async () => {
+  a.value = await readTxt();
+});
 
 </script>
 <template>
