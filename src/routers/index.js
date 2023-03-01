@@ -1,8 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 import NotFound from "@/components/NotFound.vue";
-import Talk from "@/components/Talk.vue";
-import Intro from "@/components/Intro.vue";
 
 const routes = [
   { path: "", name: "home", component: Home },
@@ -15,7 +13,7 @@ const routes = [
   {
     path: "/:talk",
     name: "talk",
-    component: Talk,
+    component: () => import("@/components/Talk.vue"),
     props: (route) => {
       return { talk: route.params.talk };
     }
