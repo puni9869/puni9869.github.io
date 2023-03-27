@@ -1,0 +1,1 @@
+import{o as t,c,a as s,t as a}from"./index-c80b18f5.js";const n={class:"min-vh-100 d-flex flex-column"},l={class:"my-5 container"},r={class:"row my-5"},i={class:"col"},m={__name:"Talk",props:["talk"],setup(o){return console.log(o),(e,d)=>(t(),c("div",n,[s("div",l,[s("div",r,[s("div",i,a(e.$route),1)])])]))}};export{m as default};

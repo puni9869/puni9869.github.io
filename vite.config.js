@@ -9,7 +9,7 @@ export default defineConfig({
     plugins: [
       vue(),
       viteStaticCopy({
-        targets: [{ src: "./CNAME", dest: "." }, { src: "./favicon.ico", dest: "." }, { src: "./404.html", dest: "." }]
+        targets: [{ src: "./CNAME", dest: "." }, { src: "./favicon.ico", dest: "." }, { src: "./404.html", dest: "." }, { src: "./src/assets/fonts", dest: "." }]
       })
     ],
     build: {
