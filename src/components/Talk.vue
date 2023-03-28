@@ -17,7 +17,6 @@ const compiledMarkdown = computed(() => {
 });
 
 onBeforeMount(() => {
-
   fetch("https://raw.githubusercontent.com/puni9869/puni9869.github.io/main/README.md")
     .then(response => response.text())
     .then(data => (markdown.value = data));
