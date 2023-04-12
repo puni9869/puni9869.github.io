@@ -11,14 +11,15 @@
               <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.</a>
             </p>
             <p>
-              I can endlessly talk on containers, <a href="https://terraform.io/" target="_blank" rel="noopener">terraform</a> and
+              We can discuss on containers, <a href="https://terraform.io/" target="_blank" rel="noopener">terraform</a>
+              and
               web technology.
             </p>
             <hr>
             <p>Find me around.</p>
             <ul>
               <li>
-                <router-link to="/talks">Talks</router-link>
+                <router-link to="/talks">Blogs</router-link>
               </li>
               <li><a href="https://github.com/puni9869" target="_blank" rel="noopener">Github</a></li>
               <li><a href="mailto:punitinani1@gmail.com" target="_blank" rel="noopener">Email</a></li>
