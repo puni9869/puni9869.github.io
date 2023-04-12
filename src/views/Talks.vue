@@ -11,14 +11,11 @@ import metadata from "@/assets/metadata.json";
             <router-link to="/">
               <button class="btn btn-sm"><i class="fa fa-home"></i></button>
             </router-link>
-            Talks
+            Blogs
           </p>
           <div class="row" v-for="talk in metadata" :key="talk.id">
-            <p class="title">
-              //
-              <router-link :to="{name:'talk', params:{talk:talk.slug}}">{{ talk.title }}
-              </router-link>
-              <span> {{ talk.published }}</span>
+            <p class="title"><a :href="talk.url" target="_blank">// {{ talk.title }}</a>
+              <span>{{ talk.published }}</span>
             </p>
           </div>
         </div>
@@ -32,19 +29,19 @@ import metadata from "@/assets/metadata.json";
 
 <style scoped>
 .btn {
-  background-color: cadetblue;
-  border-radius: 0px;
-  color: white;
-  padding: 0 5px 0 5px;
-  font-size: 15px;
-  margin-top: 0px;
-  cursor: pointer;
-  margin-right: 5px;
-  margin-left: 5px;
+	background-color: cadetblue;
+	border-radius: 0px;
+	color: white;
+	padding: 0 5px 0 5px;
+	font-size: 15px;
+	margin-top: 0px;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .btn:hover {
-  background-color: black;
-  color: white
+	background-color: black;
+	color: white
 }
 </style>
