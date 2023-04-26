@@ -20,10 +20,10 @@
     "@rushstack/eslint-patch": "^1.1.4",
     "@vitejs/plugin-vue": "^4.1.0",
     "@vue/eslint-config-prettier": "^7.1.0",
-    "eslint": "^8.38.0",
-    "eslint-plugin-vue": "^9.10.0",
-    "prettier": "^2.8.7",
-    "vite": "^4.2.1",
-    "vite-plugin-static-copy": "^0.13.1"
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.2",
+    "vite-plugin-static-copy": "^0.14.0"
   }
 }
