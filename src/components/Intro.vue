@@ -13,7 +13,7 @@
             <p>
               We can discuss on containers, <a href="https://terraform.io/" target="_blank" rel="noopener">terraform</a>
               and
-              web technology.
+              maintainer of open source projects <a href="https://gitea.com/" target="_blank" rel="noopener">gitea</a>.
             </p>
             <hr>
             <p>Find me around.</p>
@@ -24,6 +24,10 @@
               <li><a href="https://github.com/puni9869" target="_blank" rel="noopener">Github</a></li>
               <li><a href="mailto:punitinani1@gmail.com" target="_blank" rel="noopener">Email</a></li>
               <li><a href="https://www.linkedin.com/in/punitinani1/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li>
+                <a href="https://github.com/go-gitea/gitea/issues?q=author%3Apuni9869" target="_blank" rel="noopener">Open
+                  Source</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -31,3 +35,5 @@
     </div>
   </div>
 </template>
+<script setup>
+</script>
