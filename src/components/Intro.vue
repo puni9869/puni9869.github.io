@@ -26,7 +26,7 @@
               <li><a href="https://www.linkedin.com/in/punitinani1/" target="_blank" rel="noopener">LinkedIn</a></li>
               <li>
                 <a href="https://github.com/go-gitea/gitea/issues?q=author%3Apuni9869" target="_blank" rel="noopener">Open
-                  Source</a>
+                  Source Work</a>
               </li>
             </ul>
           </div>
