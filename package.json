@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@jridgewell/sourcemap-codec": "^1.4.15",
-    "highlight.js": "^11.8.0",
+    "highlight.js": "^11.9.0",
     "marked": "^9.1.2",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
