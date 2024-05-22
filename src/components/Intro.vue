@@ -6,8 +6,7 @@
           <div class="col">
             <p>Hello 👋 I’m Punit Inani.</p>
             <p>I’m a software engineer at <a href="https://rackspace.com/" target="_blank" rel="noopener">Rackspace</a>,
-              working on <a href="https://go.dev/" target="_blank" rel="noopener">go</a>,
-              <a href="https://python.org/" target="_blank" rel="noopener">python</a> and
+              working on <a href="https://go.dev/" target="_blank" rel="noopener">go</a> and 
               <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.</a>
             </p>
             <p>
