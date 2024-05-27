@@ -24,6 +24,6 @@
     "eslint-plugin-vue": "^9.23.0",
     "prettier": "^3.2.5",
     "vite": "^5.2.11",
-    "vite-plugin-static-copy": "^1.0.1"
+    "vite-plugin-static-copy": "^1.0.5"
   }
 }
